@@ -38,7 +38,7 @@ function display() {
            <div class="card">
            <span class=${!todo[i].completed ? "abc" : "line"}>${todo[i].title}</span>
              <span>
-             <button onclick='doneTodo(${i})'>${todo[i].completed ? "Undo" :"Done"}</button>
+             <button onclick='doneTodo(${i})'>${todo[i].completed ? "Undo" : "Done"}</button>
              <button onclick='delTodo(${i})'>Del</button>
              </span>
            </div>
